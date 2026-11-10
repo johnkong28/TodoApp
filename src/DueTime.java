@@ -60,8 +60,9 @@ public class DueTime implements Comparable<DueTime> {
         if (getDay()>other.getDay()){return 1;}
         if (getHour()>other.getHour()){return 1;}
         if (getHour()<other.getHour()){return-1;}
-        if (getMinute()>other.getHour()){return 1;}
+        if (getMinute()>other.getMinute()){return 1;}
         if (getMinute()<other.getMinute()){return -1;}
+
         return 0;
 
 
