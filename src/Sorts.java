@@ -34,6 +34,7 @@ public class Sorts {
      */
     public static boolean isSorted(Task[] a, String field) {
         // TODO
+        for (int i = 0; i < a.)
         return false;
     }
 
