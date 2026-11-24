@@ -23,6 +23,7 @@ public class Completed implements Comparable<Completed> {
         } else return 0;
     }
 
+
     @Override
     public String toString() { return done ? "done" : "not done"; }
 }
